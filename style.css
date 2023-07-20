@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body
+{
+    height: 800px;
+   padding-top:80px;
+   background-image: linear-gradient(to right top, #b94fe2e1, rgb(117, 52, 223));
+   background-origin: content-box;
+   background-repeat: inherit;
+}
+        /* welcome code*/
+#greeting h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:white;
+    padding: 20px;
+}
+            /* SIGN UP */
+
+.signup{
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+  
+
+}
+#message{
+    font-size: 14px;
+    text-align: start;
+    justify-content: flex-start;
+    margin: 15px,0;
+    font-family: sans-serif;
+    display: inline-block;
+    text-transform:capitalize;
+    padding: 10px 20px;
+    color: #000; ;
+}
+
+/* Head*/
+.head {
+    padding: 20px;
+    font-family:'popins'sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    box-shadow: none;
+}
+.main div {
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 20px 30px rgb(0,0,0,0.1);
+    align-items: center;
+  text-align: center;
+  background-color: #fff;
+}  
+.form{
+    padding: 20px 0px 10px 0px;
+    box-shadow: none;
+}
+.form input{
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgba(143, 143, 142, 0.2);
+    background-color: #f5f4f5e1;
+}
+
+#button{
+    border-radius: 25px;
+    margin: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bolder;
+    color:rgb(48, 47, 47) ;
+    background:linear-gradient(to right,rgb(139, 247, 148),rgb(73, 253, 118));
+}
