@@ -2,7 +2,7 @@ function checkPassword(){
     let password =document.getElementById("Pass").value;
     let confirmPassword=document.getElementById("Re-pass").value;
     let message=document.getElementById("message");
-    delay.checkPassword(4000);
+ 
 
     if(password.lenght !=0){
         if(password==confirmPassword){
